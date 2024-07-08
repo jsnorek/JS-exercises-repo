@@ -239,7 +239,27 @@ function exercise9(item) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-    if( item typeof = number) {
+    if (typeof item === 'number') {
+    switch (item) {
+      case 1:
+        answer9 = "You won!";
+        break;
+      case 7:
+        answer9 = "You are lucky!";
+        break;
+      case 101:
+        answer9 = "Welcome to coding 101!";
+        break;
+      case 1000000:
+        answer9 = "You are one in a million!";
+        break;
+      default:
+        answer9 = "Thanks for that!";
+        break;
+    }
+  } else {
+    answer9 = `Please send a number, that was a ${typeof item}.`;
+  }
 
     }
   // --------------------------------------------
@@ -281,6 +301,6 @@ function exercise10(num10) {
 // Congrats, you made it to the end! You rock!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-// 9 was challenging.
+// 9 was more challenging because I was unsure of how to use typeof. I used google and MDN Web Docs to research typeof.
 
 // Email your file to us or commit your file to GitHub and email us a link.
