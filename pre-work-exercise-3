@@ -158,12 +158,22 @@ function excercise7() {
 // 3 not my favorite number
 // ...
 // (Hint - use an if statement in your loop)
+function exercise8() {
+  let favNumber = 12;
+  for(let i = 0; i <= 100; i++)
+  if(i != favNumber) {
+    console.log(i + " not my favorite number!");
+  } else {
+    console.log(i + "my favorite number");
+  }
+} exercise8();
+
 
 // Exercise 10. In some of the exercises above, we had you write all 3 types of loops, for practice.
 // But in real life, how would you decide which type of loop to use? You might not have an
 // exact answer, but spend a few minutes thinking about the different types of loops and/or
 // doing some research and write down your thoughts in a comment below:
-//
+//A for loop is best used for a known number of iterations, a while loop is best used for when the number of iterations is unknown and depends on a condition, and a do while loop is best used for when the loop should execute at least once regardless of the condition
 
 // Exercise 11. Now we'll practice using nested loops (a loop inside another loop)!
 // Update the nested loops below to so that for each value of outsideCounter,
@@ -186,10 +196,10 @@ inside 1
 *********************************** 
 */
 
-for (let outsideCounter = 0; outsideCounter <= 3 /*???*/; ) {
+for (let outsideCounter = 0; outsideCounter <= 3; outsideCounter++) {
   console.log("counting down from", outsideCounter);
-  for (let insideCounter = outsideCounter /*???*/ /*???*/; ; ) {
-    console.log("inside" /*???*/);
+  for (let insideCounter = outsideCounter; insideCounter > 0; insideCounter--) {
+    console.log("inside", insideCounter);
   }
   console.log("***********************************");
 }
@@ -197,6 +207,6 @@ for (let outsideCounter = 0; outsideCounter <= 3 /*???*/; ) {
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//This was fairly easy - I needed a refresher on nested loops.
 
 // Email your file to us or commit your file to GitHub and email us a link.
