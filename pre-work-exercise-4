@@ -129,10 +129,14 @@ console.log(groceryListCopy);
 // There are multiple ways to do this, but try doing it using only the split() function.
 const mySchedule = "wake up--->brush teeth--->eat breakfast--->go to work";
 
+const mySchedule = "wake up--->brush teeth--->eat breakfast--->go to work";
+const myScheduleSplit = mySchedule.split("--->", 2);
+console.log(myScheduleSplit);
+
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//fairly easy
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
