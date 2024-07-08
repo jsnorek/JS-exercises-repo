@@ -104,10 +104,14 @@ console.log("The value of b is " + b);
 
 // Without running the code, write down in a comment:
 // 1. What mysteryFunction2 does
+//It takes 2 perameters and subtracts one from the other, uses that to find a which is then used to find b
 // 2. What prints out for the value of a
+//6
 // 3. What prints out for the value of b
+//5
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?
+//yes
 
 // Exercise 9. This exercise is to practice reading the documentation for functions.
 // String.split() is a function in the JavaScript standard library that you can use in your code.
@@ -117,6 +121,8 @@ console.log("The value of b is " + b);
 // Here's a string I made representing my grocery list.
 // Using split() and groceryList, make an array of my grocery list items
 const groceryList = "eggs,carrots,orange juice";
+const groceryListCopy = groceryList.split();
+console.log(groceryListCopy);
 
 // Here's a string I made representing my morning schedule.
 // Using split() and mySchedule, make an array of the *first 2* things I do in the morning
