@@ -39,15 +39,39 @@ function logGreeting2() {
 // Exercise 4. Write a function that takes 3 parameters that are all numbers.
 // The function should return the sum of the 3 numbers.
 // Then write some function calls you would use to test your function.
+function exercise4(num1, num2, num3) {
+  return(num1 + num2 + num3);
+}
+console.log(exercise4(1, 2, 3));
+console.log(exercise4(4, 5, 6));
 
 // Exercise 5. Let's say a museum gives a discount for children ages 14 or under, and seniors 65 or older.
 // Write a function that takes in a person's age and returns true if they should get a discount.
 // Otherwise it should return false.
 // Then write some function calls you would use to test your function.
 
+function exercise5(age) {
+  if(age <= 14 || age >= 65) {
+    return true;
+  } else {
+    return false;
+  }
+} 
+console.log(exercise5(14));
+console.log(exercise5(70));
+console.log(exercise5(44));
+
 // Exercise 6. Write a function that takes 2 parameters -- one number and one string.
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
+
+function exercise6(num, str) {
+for(let i = 0; i < num; i++) {
+ console.log(str);
+  }
+}  
+console.log(exercise6(3, "hello"));
+console.log(exercise6(5, "bye"));
 
 // Exercise 7. Read the following code (don't run it yet)
 function mysteryFunction1(p1) {
@@ -60,11 +84,14 @@ console.log("The value of z is " + z);
 
 // Without running the code, write down in a comment:
 // 1. What mysteryFunction1 does
+//It multiplies p1 by 2, esentially making z twice the value of y.
 // 2. What prints out for the value of y
+//4
 // 3. What prints out for the value of z
+//8
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?
-
+//yes
 // Exercise 8. Read the following code (don't run it yet)
 function mysteryFunction2(p1, p2) {
   const x = p1 - p2;
