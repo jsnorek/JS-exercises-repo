@@ -66,7 +66,6 @@ function exercise4() {
 
 //FOR
 function exercise4() {
-  let i = 10;
   for (let i = 10; i >= 1; i--) {
     console.log(i);
   }
@@ -75,22 +74,79 @@ function exercise4() {
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
+//WHILE
+function exercise5() {
+  let i = 7;
+  while(i <= 27) {
+    console.log(i);
+    i++;
+  }
+} exercise5();
+
+//DO WHILE
+function exercise5() {
+  let i = 7;
+  do {
+    console.log(i);
+    i++;
+  } while (i <= 27);
+} exercise5();
+
+//FOR
+function exercise5() {
+  for (let i = 7; i <= 27; i++) {
+    console.log(i);
+  }
+} exercise5();
+
 // Exercise 6. Write a loop that prints numbers between 0 and 100, counting by tens.
 // I.e. it will print 10, then 20, then 30, etc.
 // Write this loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
+//WHILE
+function exercise6() {
+  let i = 10;
+  while(i <= 100) {
+    console.log(i);
+    i += 10;
+  }
+} exercise6();
+
+//DO WHILE
+function exercise6() {
+  let i = 10;
+  do {
+    console.log(i);
+    i += 10;
+  } while (i <= 100);
+} exercise6();
+
+//FOR
+function exercise6() {
+  for (let i = 10; i <= 100; i += 10) {
+    console.log(i);
+  }
+} exercise6();
+
 // Exercise 7. Add a comment as to why the following loop is an infinite loop (will
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
-
+//The counter starts at 1 which is less than 2, and the loop will only count down (counterFour--) so it will always be less than 2 and infinitely loop.
 let counterFour = 1;
 while (counterFour < 2) {
   console.log("HELP ME!");
-  counterFour--;
+  counterFour++;
 }
 
 // Exercise 8. Make a variable that contains your favorite integer. Write a loop
 // (your choice which type) that prints the integers from 0 to that number.
+
+function excercise7() {
+  let variable = 12;
+  for(let i = 0; i <= variable; i++)
+    console.log(i);
+} excercise7();
+
 
 // Exercise 9. Make a variable that contains your favorite integer (this time make sure it's
 // less than 100). Write a loop (your choice which type) that prints the integers from 0 to 100.
