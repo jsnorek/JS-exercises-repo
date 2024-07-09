@@ -73,18 +73,28 @@ function exercise11(numbers) {
 
 // Exercise 12. Make an object called me that contains the following keys: name, favoriteAnimal, favoriteNumber
 // The values of those keys can be whatever you choose.
+const me = {
+    name: "Juliana",
+    favoriteAnimal: "dog",
+    favoriteNumber: 12,
+  };
 
 // Exercise 13. Add another 2 keys and values to the object (you choose what they are)
+me.favoriteColor = "blue";
+me.favoriteMeal = "breakfast";
 
 // Exercise 14. Update the favoriteAnimal value to something different
+me.favoriteAnimal = "cat";
 
 // Exercise 15. Print the value of favoriteAnimal.
 // Note: there are at least 2 ways to get the value of a key, try to write both.
+console.log(me.favoriteAnimal);
+console.log(me["favoriteAnimal"]);
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//fairly easy
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
