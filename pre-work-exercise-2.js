@@ -145,7 +145,7 @@ function exercise4(varA, varB) {
 // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
 // seemed like they are equal, but would not pass the tests? In your analysis
 // consider other data types beside strings and variables.
-If one was a number 4 and the other was a string "4" they would differ. If both values were equal but data types other than a string or number, they would come back as different (like if both values were true).
+//If one was a number 4 and the other was a string "4" they would differ. If both values were equal but data types other than a string or number, they would come back as different (like if both values were true).
 
 // EXERCISE 6.
 // Here, assign the value of true to answer6 if:
@@ -303,4 +303,4 @@ function exercise10(num10) {
 // Please answer in a comment below.
 // 9 was more challenging because I was unsure of how to use typeof. I used google and MDN Web Docs to research typeof.
 
-// Email your file to us or commit your file to GitHub and email us a link.
+// Email your file to us or commit your file to GitHub and email us a link
