@@ -63,7 +63,7 @@ function exercise1(num1) {
   // ------------------------------------------
   return answer1;
 }
-
+}
 // EXERCISE 2.
 // Write an if/else conditional statement that if given a number will assign
 // a string value of:
