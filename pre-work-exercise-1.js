@@ -34,21 +34,20 @@ let num2 = 6;
 // Exercise 6. Write a comment below explaining the difference between the rules
 // for num1 and num2 from Exercise 5. What numbers would be valid values for
 // num2 but not num1?
-// Both 1 and 10 would be valid numbers for num2 but not num1 because the num2 value also captures numbers equal to 1 and 10.
+//Both 1 and 10 would be valid numbers for num2 but not num1 because the num2 value also captures numbers equal to 1 and 10.
 
 // Exercise 7. Now we will try some addition.
 // a. Assign the the values of 4 and 6 to num1 and num2, respectively.
 // b. Make a new variable called 'theSum', and use 'num1' and
 // 'num2' to assign its value using the "+" operator.
- num1 = 4;
- num2 = 6;
- let theSum = num1 + num2;
+  num1 = 4;
+  num2 = 6;
+  let theSum = num1 + num2;
 
 // Exercise 8. Now we will try some multiplication.
 // Make a new variable called 'theProduct', multiply num1 and num2 and assign
 // the resulting value to 'theProduct'.
 let theProduct = num1 * num2;
-
 
 // Exercise 9.
 // Make a new variable called 'statement' and using 'myName' and
@@ -96,10 +95,11 @@ const myAnswerForExercise14 = "RnD";
 const myAnswerForExercise15 = "R2D2";
 
 // Exercise 16 What is the value of A * B
-const myAnswerForExercise16 = "R1";
+const myAnswerForExercise16 = "R";
 
 // Exercise 17 What is the value of true || false
-const myAnswerForExercise17 = "";
+const myAnswerForExercise17 = "true";  
+
 
 // Exercise 18 What is the value of 1 === "1"
 const myAnswerForExercise18 = "false";
@@ -119,7 +119,8 @@ const myAnswerForExercise22 = "false";
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//Fairly easy
+//fairly easy
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
+
