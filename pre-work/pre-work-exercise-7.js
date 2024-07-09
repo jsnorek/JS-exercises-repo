@@ -98,3 +98,15 @@ function indexOf(arr, num) {
 // includes('abcd', 'b') // --> true
 // includes('abcd', 'e') // --> false
 // includes('abcd', 'a', 2) // --> false
+
+function exercise6(collection, value, index) {
+    for (let i = 0; i < collection.length; i++) {
+      //if (typeof collection[i] === "object" || typeof collection[i] === "array")
+      if (collection[i] === value) {
+        return true;
+      }
+    } return false;
+  }
+  console.log(exercise6([1, 2, 3], 1, 2));
+
+  //not sure how to implement the starting index
